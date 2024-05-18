@@ -6,9 +6,9 @@ COPY . /app/
 
 COPY package*.json /app/
 
-RUN sudo npm install
+RUN npm install
 
-RUN sudo npm run build
+RUN npm run build
 
 EXPOSE 8080
 
